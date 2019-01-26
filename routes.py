@@ -4,7 +4,7 @@ from forms import SignupForm, LoginForm
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI']= 'postgres://pgadmin:jcc88tru@localhost/learningflask'
+app.config['SQLALCHEMY_DATABASE_URI']= 'postgres://pgadmin:pwd@localhost/learningflask'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = 'False'
 
 db.init_app(app)
