@@ -23,3 +23,7 @@ class LoginForm(Form):
     submit = SubmitField("Sign in")
 
 
+class AddressForm(Form):
+    address = StringField('Address', validators=[DataRequired("Please enter an address.")])
+    submit = SubmitField("Search")
+
