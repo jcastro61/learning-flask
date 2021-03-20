@@ -9,7 +9,7 @@ future==0.17.1
 geocoder==1.38.1
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.1.0
 psycopg2==2.7.7
 psycopg2-binary==2.7.7
